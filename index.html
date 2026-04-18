@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Control Fiscal 2026 — Edna Florencia García García</title>
+<title>Control Fiscal 2026 — Edna Florencia Garcia Garcia</title>
 <style>
 :root{--primary:#6b46c1;--pl:#9f7aea;--accent:#e53e3e;--ok:#38a169;--bg:#faf5ff;--card:#fff;--txt:#2d3748;--txtL:#718096;--bdr:#e9d8fd;--cp:#e9d8fd}
 *{margin:0;padding:0;box-sizing:border-box}
@@ -12,9 +12,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;bac
 .hdr{background:linear-gradient(135deg,var(--primary),var(--pl));color:#fff;padding:20px 32px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:12px;position:relative;z-index:1}
 .hdr-left{display:flex;align-items:center;gap:16px}
 .hdr-logo{width:56px;height:56px;border-radius:50%;border:3px solid rgba(255,255,255,.4);object-fit:cover}
-.hdr h1{font-size:1.5rem;font-weight:600}
-.hdr .info{font-size:.85rem;opacity:.9}
-.hdr .info span{margin-right:18px}
+.hdr h1{font-size:1.5rem;font-weight:600}.hdr .info{font-size:.85rem;opacity:.9}.hdr .info span{margin-right:18px}
 .ctn{max-width:1400px;margin:0 auto;padding:24px;position:relative;z-index:1}
 .alert{border-radius:12px;padding:14px 20px;margin-bottom:20px;display:flex;align-items:center;gap:10px;background:#fff5f5;border:1px solid #feb2b2}
 .alert.ok{background:#f0fff4;border-color:#9ae6b4}
@@ -22,8 +20,7 @@ body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:0;bac
 .card{background:var(--card);border-radius:14px;padding:20px;box-shadow:0 2px 8px rgba(107,70,193,.08);border:1px solid var(--bdr);transition:transform .2s,box-shadow .2s}
 .card:hover{transform:translateY(-2px);box-shadow:0 4px 16px rgba(107,70,193,.15)}
 .card .lb{font-size:.78rem;color:var(--txtL);text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
-.card .vl{font-size:1.5rem;font-weight:700;color:var(--primary)}
-.card .sb{font-size:.8rem;color:var(--txtL);margin-top:4px}
+.card .vl{font-size:1.5rem;font-weight:700;color:var(--primary)}.card .sb{font-size:.8rem;color:var(--txtL);margin-top:4px}
 .tabs{display:flex;gap:4px;border-bottom:2px solid var(--bdr);flex-wrap:wrap}
 .tab{padding:10px 20px;cursor:pointer;border:none;background:0;font-size:.9rem;color:var(--txtL);border-bottom:2px solid transparent;margin-bottom:-2px;transition:.2s;border-radius:8px 8px 0 0}
 .tab:hover{color:var(--primary);background:rgba(107,70,193,.05)}
@@ -37,15 +34,13 @@ td{padding:10px 12px;border-bottom:1px solid var(--bdr)}
 tr:hover td{background:#faf5ff}
 .n{text-align:right;font-variant-numeric:tabular-nums}
 .tr td{font-weight:700;background:var(--cp)!important;border-top:2px solid var(--primary)}
-.hl{color:var(--accent);font-weight:600}
-.pos{color:var(--ok);font-weight:600}
+.hl{color:var(--accent);font-weight:600}.pos{color:var(--ok);font-weight:600}
 .ig{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-bottom:16px}
 .ig label{display:block;font-size:.78rem;color:var(--txtL);margin-bottom:4px;text-transform:uppercase;letter-spacing:.3px}
 .ig input,.ig select{width:100%;padding:8px 12px;border:1px solid var(--bdr);border-radius:8px;font-size:.9rem;background:#fff}
 .ig input:focus,.ig select:focus{outline:0;border-color:var(--pl);box-shadow:0 0 0 3px rgba(107,70,193,.15)}
 .btn{background:var(--primary);color:#fff;border:none;padding:10px 24px;border-radius:8px;cursor:pointer;font-size:.9rem;transition:.2s}
-.btn:hover{background:var(--pl);transform:translateY(-1px)}
-.btn2{background:#718096}.btn2:hover{background:#4a5568}
+.btn:hover{background:var(--pl);transform:translateY(-1px)}.btn2{background:#718096}.btn2:hover{background:#4a5568}
 .btns{padding:4px 10px;font-size:.75rem;border-radius:6px}
 .note{background:#fffff0;border:1px solid #fefcbf;border-radius:10px;padding:12px 16px;font-size:.82rem;color:#744210;margin-top:12px}
 .note strong{color:#975a16}
@@ -55,179 +50,102 @@ tr:hover td{background:#faf5ff}
 .st-pe{background:#fed7d7;color:#9b2c2c;padding:3px 10px;border-radius:10px;font-size:.75rem;font-weight:600}
 .st-na{background:#e2e8f0;color:#718096;padding:3px 10px;border-radius:10px;font-size:.75rem;font-weight:600}
 .st-ve{background:#feebc8;color:#c05621;padding:3px 10px;border-radius:10px;font-size:.75rem;font-weight:600}
-.si{position:fixed;bottom:20px;right:20px;background:var(--ok);color:#fff;padding:10px 20px;border-radius:10px;font-size:.85rem;opacity:0;transition:opacity .3s;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:1000}
-.si.show{opacity:1}
+.si{position:fixed;bottom:20px;right:20px;background:var(--ok);color:#fff;padding:10px 20px;border-radius:10px;font-size:.85rem;opacity:0;transition:opacity .3s;box-shadow:0 4px 12px rgba(0,0,0,.15);z-index:1000}.si.show{opacity:1}
 .footer{text-align:center;padding:20px;font-size:.8rem;color:var(--txtL)}
-.sync-icon{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}
-.sync-on{background:var(--ok)}.sync-off{background:var(--accent)}
+.sync-icon{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px}.sync-on{background:var(--ok)}.sync-off{background:var(--accent)}
+.decl-detail{background:#f7fafc;border:1px solid var(--bdr);border-radius:10px;padding:16px;margin-top:12px;font-size:.83rem}
+.decl-detail h4{color:var(--primary);margin-bottom:8px;font-size:.9rem}
+.decl-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+@media(max-width:768px){.decl-grid{grid-template-columns:1fr}}
 @media print{.hdr{print-color-adjust:exact;-webkit-print-color-adjust:exact}.tabs,.tab{display:none}.tc{display:block!important;page-break-inside:avoid}.btn,.btn2{display:none}body::before{display:none}}
 </style>
 </head>
 <body>
-<div class="hdr">
-  <div class="hdr-left">
-    <img src="logo.png" alt="Logo" class="hdr-logo">
-    <div>
-      <h1>Control Fiscal 2026</h1>
-      <div class="info"><span>Edna Florencia Garcia Garcia</span><span>RFC: GAGE620314UU5</span><span>Calle: Manuel M Flores</span></div>
-    </div>
-  </div>
-  <div style="text-align:right"><div class="info">
-    <div><span class="badge b-i">Sueldos y Salarios</span> Pension (54%)</div>
-    <div style="margin-top:4px"><span class="badge b-r">RESICO</span> Alquiler Locales (46%)</div>
-    <div style="margin-top:6px;font-size:.75rem"><span class="sync-icon" id="syncDot"></span><span id="syncTxt">-</span></div>
-  </div></div>
-</div>
+<div class="hdr"><div class="hdr-left"><img src="logo.png" alt="Logo" class="hdr-logo"><div><h1>Control Fiscal 2026</h1><div class="info"><span>Edna Florencia Garcia Garcia</span><span>RFC: GAGE620314UU5</span><span>Calle: Manuel M Flores</span></div></div></div>
+<div style="text-align:right"><div class="info"><div><span class="badge b-i">Sueldos y Salarios</span> Pension (54%)</div><div style="margin-top:4px"><span class="badge b-r">RESICO</span> Alquiler Locales (46%)</div><div style="margin-top:6px;font-size:.75rem"><span class="sync-icon" id="syncDot"></span><span id="syncTxt">-</span></div></div></div></div>
 <div class="ctn">
-  <div class="alert ok" id="alertLimit"><span style="font-size:1.3rem" id="alertIcon">OK</span><div>
-    <div style="font-size:.9rem">Acumulado anual: <strong id="alertAmount">$0.00</strong> de $3,500,000.00 permitidos en RESICO</div>
-    <div style="font-size:.8rem;color:#718096">Si se excede, sale automaticamente de RESICO al mes siguiente</div>
-  </div></div>
+  <div class="alert ok" id="alertLimit"><span style="font-size:1.3rem" id="alertIcon">OK</span><div><div style="font-size:.9rem">Acumulado anual: <strong id="alertAmount">$0.00</strong> de $3,500,000.00 permitidos en RESICO</div><div style="font-size:.8rem;color:#718096">Si se excede, sale automaticamente de RESICO al mes siguiente</div></div></div>
   <div class="dash">
     <div class="card"><div class="lb"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"/></svg>Ingreso Mensual</div><div class="vl" id="dR">$34,800.00</div><div class="sb">Subtotal: $33,434.75 + IVA</div></div>
     <div class="card"><div class="lb"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M9 21H5a2 2 0 01-2-2V5a2 2 0 012-2h4"/><polyline points="16 17 21 12 16 7"/><line x1="21" y1="12" x2="9" y2="12"/></svg>ISR RESICO</div><div class="vl" id="dI">$0.00</div><div class="sb">Tasa sobre ingreso bruto</div></div>
     <div class="card"><div class="lb"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/><path d="M9 12l2 2 4-4"/></svg>Retencion ISR</div><div class="vl" id="dRt">$0.00</div><div class="sb">1.25% retenido por inquilino</div></div>
-    <div class="card"><div class="lb"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M12 9v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>ISR a Pagar</div><div class="vl hl" id="dP">$0.00</div><div class="sb">ISR RESICO - Retencion</div></div>
-    <div class="card"><div class="lb"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Saldo a Favor ISR</div><div class="vl pos" id="dSF">$0.00</div><div class="sb">Retencion excede ISR causado</div></div>
-    <div class="card"><div class="lb"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>IVA Neto</div><div class="vl" id="dV">$0.00</div><div class="sb">Trasladado - Retenido</div></div>
+    <div class="card"><div class="lb"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--ok)" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Saldo Favor ISR</div><div class="vl pos" id="dSF">$0.00</div><div class="sb">Retencion excede ISR causado</div></div>
+    <div class="card"><div class="lb"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><rect x="1" y="4" width="22" height="16" rx="2"/><line x1="1" y1="10" x2="23" y2="10"/></svg>IVA Neto</div><div class="vl" id="dV">$0.00</div><div class="sb">Trasladado - Retenido - Acreditable</div></div>
     <div class="card"><div class="lb"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>Acumulado Anual</div><div class="vl" id="dA">$0.00</div><div class="sb">Ingresos totales 2026</div></div>
   </div>
   <div class="tabs">
     <button class="tab active" data-tab="resumen"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/></svg>Resumen</button>
     <button class="tab" data-tab="tablas"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M3 3h18v18H3z"/><path d="M3 9h18"/><path d="M3 15h18"/><path d="M9 3v18"/></svg>Tablas</button>
     <button class="tab" data-tab="anual"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>Anual</button>
-    <button class="tab" data-tab="iva"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>IVA</button>
+    <button class="tab" data-tab="iva"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>IVA</button>
     <button class="tab" data-tab="declaraciones"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>Declaraciones</button>
     <button class="tab" data-tab="datos"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>Datos</button>
     <button class="tab" data-tab="config"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>Config</button>
   </div>
 
+  <!-- RESUMEN -->
   <div class="tc active" id="tab-resumen"><div class="sec" style="margin-top:16px">
-    <h3><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" style="vertical-align:-3px;margin-right:6px"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>Desglose Mensual - Alquiler (RESICO)</h3>
+    <h3><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--primary)" stroke-width="2" style="vertical-align:-3px;margin-right:6px"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>Desglose Mensual - Alquiler (RESICO)</h3>
     <div class="ig">
       <div><label>Mes</label><select id="mesSel"><option value="1">Febrero</option><option value="2">Marzo</option><option value="3" selected>Abril</option><option value="4">Mayo</option><option value="5">Junio</option><option value="6">Julio</option><option value="7">Agosto</option><option value="8">Septiembre</option><option value="9">Octubre</option><option value="10">Noviembre</option><option value="11">Diciembre</option></select></div>
       <div><label>Ingreso Total (con IVA)</label><input type="number" id="ingresoMes" value="34800" step="0.01"></div>
       <div><label>Inquilino Persona Moral?</label><select id="esPM"><option value="1" selected>Si - Retiene ISR 1.25% e IVA 10.67%</option><option value="0">No - Sin retenciones</option></select></div>
     </div>
-    <button class="btn" onclick="calcularMes()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/><line x1="8" y1="14" x2="12" y2="14"/></svg>Calcular</button>
-    <button class="btn btn2" onclick="guardarMes()" style="margin-left:8px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>Guardar</button>
+    <button class="btn" onclick="calcularMes()"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="8" y1="6" x2="16" y2="6"/><line x1="8" y1="10" x2="16" y2="10"/></svg>Calcular</button>
+    <button class="btn btn2" onclick="guardarMes()" style="margin-left:8px"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" style="vertical-align:-2px;margin-right:4px"><path d="M19 21H5a2 2 0 01-2-2V5a2 2 0 012-2h11l5 5v11a2 2 0 01-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/></svg>Guardar</button>
     <table style="margin-top:16px"><thead><tr><th>Concepto</th><th class="n">Importe</th><th>Notas</th></tr></thead><tbody id="desgloseBody"></tbody></table>
   </div></div>
-
+  <!-- TABLAS -->
   <div class="tc" id="tab-tablas">
-    <div class="sec" style="margin-top:16px"><h3>Tabla RESICO 2026 (Mensual)</h3>
-    <p style="font-size:.82rem;color:var(--txtL);margin-bottom:12px">Sobre ingreso bruto cobrado, sin deducciones.</p>
+    <div class="sec" style="margin-top:16px"><h3>Tabla RESICO 2026 (Mensual)</h3><p style="font-size:.82rem;color:var(--txtL);margin-bottom:12px">Sobre ingreso bruto cobrado, sin deducciones.</p>
     <table><thead><tr><th class="n">Inferior</th><th class="n">Superior</th><th class="n">Tasa</th></tr></thead><tbody>
-      <tr><td class="n">$0.00</td><td class="n">$25,000.00</td><td class="n">1.00%</td></tr>
-      <tr><td class="n">$25,000.01</td><td class="n">$50,000.00</td><td class="n">1.10%</td></tr>
-      <tr><td class="n">$50,000.01</td><td class="n">$83,333.33</td><td class="n">1.50%</td></tr>
-      <tr><td class="n">$83,333.34</td><td class="n">$208,333.33</td><td class="n">2.00%</td></tr>
-      <tr><td class="n">$208,333.34</td><td class="n">$3,500,000.00</td><td class="n">2.50%</td></tr>
+      <tr><td class="n">$0.00</td><td class="n">$25,000.00</td><td class="n">1.00%</td></tr><tr><td class="n">$25,000.01</td><td class="n">$50,000.00</td><td class="n">1.10%</td></tr><tr><td class="n">$50,000.01</td><td class="n">$83,333.33</td><td class="n">1.50%</td></tr><tr><td class="n">$83,333.34</td><td class="n">$208,333.33</td><td class="n">2.00%</td></tr><tr><td class="n">$208,333.34</td><td class="n">$3,500,000.00</td><td class="n">2.50%</td></tr>
     </tbody></table></div>
-    <div class="sec"><h3>Tabla ISR 2026 (Sueldos/Salarios) - Pension</h3>
-    <p style="font-size:.82rem;color:var(--txtL);margin-bottom:12px">Sobre excedente de exencion jubilados (15 UMA aprox $5,765.10).</p>
+    <div class="sec"><h3>Tabla ISR 2026 (Sueldos/Salarios) - Pension</h3><p style="font-size:.82rem;color:var(--txtL);margin-bottom:12px">Sobre excedente de exencion jubilados (15 UMA aprox $5,765.10).</p>
     <table><thead><tr><th class="n">Lim. Inf.</th><th class="n">Lim. Sup.</th><th class="n">Cuota Fija</th><th class="n">% Exc.</th></tr></thead><tbody>
-      <tr><td class="n">$0.01</td><td class="n">$844.59</td><td class="n">$0.00</td><td class="n">1.92%</td></tr>
-      <tr><td class="n">$844.60</td><td class="n">$7,168.51</td><td class="n">$16.22</td><td class="n">6.40%</td></tr>
-      <tr><td class="n">$7,168.52</td><td class="n">$12,598.02</td><td class="n">$420.95</td><td class="n">10.88%</td></tr>
-      <tr><td class="n">$12,598.03</td><td class="n">$14,644.64</td><td class="n">$1,011.68</td><td class="n">16.00%</td></tr>
-      <tr><td class="n">$14,644.65</td><td class="n">$17,533.64</td><td class="n">$1,339.14</td><td class="n">17.92%</td></tr>
-      <tr><td class="n">$17,533.65</td><td class="n">$35,362.83</td><td class="n">$1,856.84</td><td class="n">21.36%</td></tr>
-      <tr><td class="n">$35,362.84</td><td class="n">$55,736.68</td><td class="n">$5,665.16</td><td class="n">23.52%</td></tr>
-      <tr><td class="n">$55,736.69</td><td class="n">$106,410.50</td><td class="n">$10,457.09</td><td class="n">30.00%</td></tr>
+      <tr><td class="n">$0.01</td><td class="n">$844.59</td><td class="n">$0.00</td><td class="n">1.92%</td></tr><tr><td class="n">$844.60</td><td class="n">$7,168.51</td><td class="n">$16.22</td><td class="n">6.40%</td></tr><tr><td class="n">$7,168.52</td><td class="n">$12,598.02</td><td class="n">$420.95</td><td class="n">10.88%</td></tr><tr><td class="n">$12,598.03</td><td class="n">$14,644.64</td><td class="n">$1,011.68</td><td class="n">16.00%</td></tr><tr><td class="n">$14,644.65</td><td class="n">$17,533.64</td><td class="n">$1,339.14</td><td class="n">17.92%</td></tr><tr><td class="n">$17,533.65</td><td class="n">$35,362.83</td><td class="n">$1,856.84</td><td class="n">21.36%</td></tr><tr><td class="n">$35,362.84</td><td class="n">$55,736.68</td><td class="n">$5,665.16</td><td class="n">23.52%</td></tr><tr><td class="n">$55,736.69</td><td class="n">$106,410.50</td><td class="n">$10,457.09</td><td class="n">30.00%</td></tr>
     </tbody></table></div>
-    <div class="sec"><h3>Retenciones (Persona Moral)</h3>
-    <table><thead><tr><th>Concepto</th><th class="n">Tasa</th><th>Base</th><th>Fundamento</th></tr></thead><tbody>
-      <tr><td>Retencion ISR</td><td class="n">1.25%</td><td>Subtotal sin IVA</td><td>Art. 113-J LISR</td></tr>
-      <tr><td>Retencion IVA</td><td class="n">10.6667%</td><td>Subtotal sin IVA</td><td>Art. 1-A LIVA</td></tr>
-      <tr><td>IVA Trasladado</td><td class="n">16.00%</td><td>Subtotal sin IVA</td><td>Art. 1 LIVA</td></tr>
-    </tbody></table>
-    <div class="note"><strong>Importante:</strong> Arkavia Proyectos y Servicios retiene 1.25% ISR y 10.6667% IVA.</div></div>
+    <div class="sec"><h3>Retenciones (Persona Moral)</h3><table><thead><tr><th>Concepto</th><th class="n">Tasa</th><th>Base</th><th>Fundamento</th></tr></thead><tbody>
+      <tr><td>Retencion ISR</td><td class="n">1.25%</td><td>Subtotal sin IVA</td><td>Art. 113-J LISR</td></tr><tr><td>Retencion IVA</td><td class="n">10.6667%</td><td>Subtotal sin IVA</td><td>Art. 1-A LIVA</td></tr><tr><td>IVA Trasladado</td><td class="n">16.00%</td><td>Subtotal sin IVA</td><td>Art. 1 LIVA</td></tr>
+    </tbody></table></div>
   </div>
-
-  <div class="tc" id="tab-anual"><div class="sec" style="margin-top:16px">
-    <h3>Control Anual 2026 - Feb a Dic</h3>
-    <table><thead><tr><th>Mes</th><th class="n">Ingreso</th><th class="n">Subtotal</th><th class="n">ISR RESICO</th><th class="n">Ret. ISR</th><th class="n">ISR Pagar</th><th class="n">Saldo Favor</th><th class="n">IVA Trasl.</th><th class="n">Ret. IVA</th><th class="n">IVA Pagar</th><th class="n">Acumulado</th></tr></thead>
+  <!-- ANUAL -->
+  <div class="tc" id="tab-anual"><div class="sec" style="margin-top:16px"><h3>Control Anual 2026 - Feb a Dic</h3>
+    <table><thead><tr><th>Mes</th><th class="n">Ingreso</th><th class="n">Subtotal</th><th class="n">ISR RESICO</th><th class="n">Ret. ISR</th><th class="n">Saldo Favor ISR</th><th class="n">IVA Trasl.</th><th class="n">Ret. IVA</th><th class="n">IVA Acred.</th><th class="n">IVA Pagar/Favor</th><th class="n">Acumulado</th></tr></thead>
     <tbody id="anualBody"></tbody><tfoot id="anualFoot"></tfoot></table>
     <div class="note" id="notaLimite" style="display:none"><strong>ALERTA:</strong> Acumulado se acerca o excede $3,500,000.</div>
   </div></div>
-
-  <div class="tc" id="tab-iva"><div class="sec" style="margin-top:16px">
-    <h3>Control de IVA 2026</h3>
-    <p style="font-size:.82rem;color:var(--txtL);margin-bottom:12px">RESICO simplifica ISR pero NO IVA. Locales comerciales = IVA 16%.</p>
-    <table><thead><tr><th>Mes</th><th class="n">Base</th><th class="n">IVA Trasl.</th><th class="n">IVA Ret.</th><th class="n">IVA Acred.</th><th class="n">IVA Pagar</th><th class="n">Acum.</th></tr></thead>
-    <tbody id="ivaBody"></tbody><tfoot id="ivaFoot"></tfoot></table>
-    <div class="note"><strong>Nota:</strong> IVA Pagar = Trasladado - Retenido - Acreditable.</div>
-  </div></div>
-
+  <!-- IVA -->
+  <div class="tc" id="tab-iva"><div class="sec" style="margin-top:16px"><h3>Control de IVA 2026</h3><p style="font-size:.82rem;color:var(--txtL);margin-bottom:12px">RESICO simplifica ISR pero NO IVA. Locales comerciales = IVA 16%.</p>
+    <table><thead><tr><th>Mes</th><th class="n">Base</th><th class="n">IVA Trasl.</th><th class="n">IVA Ret.</th><th class="n">IVA Acred.</th><th class="n">IVA Pagar</th><th class="n">Saldo Favor IVA</th><th class="n">Acum.</th></tr></thead>
+    <tbody id="ivaBody"></tbody><tfoot id="ivaFoot"></tfoot></table></div></div>
+  <!-- DECLARACIONES -->
   <div class="tc" id="tab-declaraciones">
-    <div class="sec" style="margin-top:16px"><h3>Declaraciones Mensuales 2026</h3>
-    <p style="font-size:.82rem;color:var(--txtL);margin-bottom:12px">Fecha limite: dia 17 del mes siguiente.</p>
-    <table><thead><tr><th>Mes</th><th>Limite</th><th class="n">ISR</th><th class="n">Saldo Favor</th><th class="n">IVA</th><th class="n">Total</th><th>Est. ISR</th><th>Est. IVA</th><th>Fecha Pres.</th><th>Notas</th><th>Accion</th></tr></thead>
-    <tbody id="declBody"></tbody></table></div>
+    <div class="sec" style="margin-top:16px"><h3>Declaraciones Mensuales 2026 - Detalle Completo</h3>
+    <p style="font-size:.82rem;color:var(--txtL);margin-bottom:12px">Fecha limite: dia 17 del mes siguiente. Incluye desglose de ISR, IVA, compras y saldos a favor.</p>
+    <div id="declDetail"></div></div>
     <div class="sec"><h3>Resumen Declaraciones</h3>
     <div class="dash">
       <div class="card"><div class="lb">Presentadas</div><div class="vl pos" id="dclOk">0</div><div class="sb">ISR + IVA</div></div>
       <div class="card"><div class="lb">Pendientes</div><div class="vl hl" id="dclPe">0</div><div class="sb">Por presentar</div></div>
       <div class="card"><div class="lb">Saldo Favor ISR Acum.</div><div class="vl pos" id="dclSF">$0.00</div><div class="sb">Acumulado 2026</div></div>
-      <div class="card"><div class="lb">IVA Pagado</div><div class="vl" id="dclIva">$0.00</div><div class="sb">Acumulado 2026</div></div>
-    </div>
-    <div class="note"><strong>Nota:</strong> En RESICO, no presentar a tiempo puede sacarte del regimen.</div></div>
+      <div class="card"><div class="lb">Saldo Favor IVA Acum.</div><div class="vl pos" id="dclSFIVA">$0.00</div><div class="sb">Acumulado 2026</div></div>
+      <div class="card"><div class="lb">Total Compras</div><div class="vl" id="dclCompras">$0.00</div><div class="sb">Gastos con factura</div></div>
+      <div class="card"><div class="lb">IVA Acreditable Total</div><div class="vl" id="dclIvaAcred">$0.00</div><div class="sb">De facturas de compras</div></div>
+    </div></div>
   </div>
-
+  <!-- DATOS -->
   <div class="tc" id="tab-datos">
-    <div class="sec" style="margin-top:16px"><h3>Contribuyente</h3><table><tbody>
-      <tr><td style="width:250px;font-weight:600">Nombre</td><td>Edna Florencia Garcia Garcia</td></tr>
-      <tr><td style="font-weight:600">RFC</td><td>GAGE620314UU5</td></tr>
-      <tr><td style="font-weight:600">Domicilio</td><td>Calle Manuel M Flores, CP 06800</td></tr>
-      <tr><td style="font-weight:600">Correo</td><td>ednagarciav@outlook.com</td></tr>
-    </tbody></table></div>
-    <div class="sec"><h3>Actividades</h3><table><thead><tr><th>#</th><th>Actividad</th><th class="n">%</th><th>Inicio</th></tr></thead><tbody>
-      <tr><td>1</td><td>Jubilado o pensionado</td><td class="n">54%</td><td>01/04/2014</td></tr>
-      <tr><td>2</td><td>Alquiler de Oficinas y locales comerciales</td><td class="n">46%</td><td>19/12/2025</td></tr>
-    </tbody></table></div>
-    <div class="sec"><h3>Regimenes</h3><table><thead><tr><th>Regimen</th><th>Inicio</th></tr></thead><tbody>
-      <tr><td>Sueldos y Salarios e Ingresos Asimilados</td><td>05/09/1985</td></tr>
-      <tr><td>RESICO</td><td>19/12/2025</td></tr>
-    </tbody></table></div>
-    <div class="sec"><h3>Inquilino</h3><table><tbody>
-      <tr><td style="width:250px;font-weight:600">Razon Social</td><td>Arkavia Proyectos y Servicios</td></tr>
-      <tr><td style="font-weight:600">RFC</td><td>APS250901S81</td></tr>
-      <tr><td style="font-weight:600">Regimen</td><td>601 - General de Ley PM</td></tr>
-      <tr><td style="font-weight:600">Uso CFDI</td><td>G03 - Gastos en general</td></tr>
-      <tr><td style="font-weight:600">Tipo</td><td>Persona Moral (retiene ISR 1.25% e IVA 10.67%)</td></tr>
-    </tbody></table></div>
-    <div class="sec"><h3>Facturacion CFDI</h3><table><tbody>
-      <tr><td style="width:250px;font-weight:600">Clave Prod/Serv</td><td>80131502 - Alquiler de edificios</td></tr>
-      <tr><td style="font-weight:600">Clave Unidad</td><td>E48 - Unidad de servicio</td></tr>
-      <tr><td style="font-weight:600">Forma Pago</td><td>03 - Transferencia electronica</td></tr>
-      <tr><td style="font-weight:600">Metodo Pago</td><td>PUE - Pago en una sola exhibicion</td></tr>
-      <tr><td style="font-weight:600">Lugar Expedicion</td><td>06800</td></tr>
-      <tr><td style="font-weight:600">Regimen Emisor</td><td>626 - RESICO</td></tr>
-    </tbody></table></div>
+    <div class="sec" style="margin-top:16px"><h3>Contribuyente</h3><table><tbody><tr><td style="width:250px;font-weight:600">Nombre</td><td>Edna Florencia Garcia Garcia</td></tr><tr><td style="font-weight:600">RFC</td><td>GAGE620314UU5</td></tr><tr><td style="font-weight:600">Domicilio</td><td>Calle Manuel M Flores, CP 06800</td></tr><tr><td style="font-weight:600">Correo</td><td>ednagarciav@outlook.com</td></tr></tbody></table></div>
+    <div class="sec"><h3>Actividades</h3><table><thead><tr><th>#</th><th>Actividad</th><th class="n">%</th><th>Inicio</th></tr></thead><tbody><tr><td>1</td><td>Jubilado o pensionado</td><td class="n">54%</td><td>01/04/2014</td></tr><tr><td>2</td><td>Alquiler de Oficinas y locales comerciales</td><td class="n">46%</td><td>19/12/2025</td></tr></tbody></table></div>
+    <div class="sec"><h3>Inquilino</h3><table><tbody><tr><td style="width:250px;font-weight:600">Razon Social</td><td>Arkavia Proyectos y Servicios</td></tr><tr><td style="font-weight:600">RFC</td><td>APS250901S81</td></tr><tr><td style="font-weight:600">Tipo</td><td>Persona Moral (retiene ISR 1.25% e IVA 10.67%)</td></tr></tbody></table></div>
   </div>
-
-  <div class="tc" id="tab-config"><div class="sec" style="margin-top:16px">
-    <h3>Configuracion - Sincronizacion en la Nube</h3>
-    <p style="font-size:.85rem;color:var(--txtL);margin-bottom:16px">Conecta con JSONBin.io para guardar tus datos en la nube (gratis).</p>
-    <div class="ig">
-      <div><label>API Key de JSONBin</label><input type="text" id="apiKeyInput" placeholder="Pega tu API Key aqui..."></div>
-      <div><label>Bin ID (se crea automatico)</label><input type="text" id="binIdInput" placeholder="Se genera al conectar..." readonly></div>
-    </div>
-    <button class="btn" onclick="setupJSONBin()">Conectar / Crear Bin</button>
-    <button class="btn btn2" onclick="syncFromCloud()" style="margin-left:8px">Descargar de Nube</button>
-    <button class="btn btn2" onclick="syncToCloud()" style="margin-left:8px">Subir a Nube</button>
-    <button class="btn btn2" onclick="disconnectCloud()" style="margin-left:8px">Desconectar</button>
+  <!-- CONFIG -->
+  <div class="tc" id="tab-config"><div class="sec" style="margin-top:16px"><h3>Configuracion - Sincronizacion en la Nube</h3><p style="font-size:.85rem;color:var(--txtL);margin-bottom:16px">Conecta con JSONBin.io para guardar tus datos en la nube (gratis).</p>
+    <div class="ig"><div><label>API Key de JSONBin</label><input type="text" id="apiKeyInput" placeholder="Pega tu API Key aqui..."></div><div><label>Bin ID</label><input type="text" id="binIdInput" placeholder="Se genera al conectar..." readonly></div></div>
+    <button class="btn" onclick="setupJSONBin()">Conectar / Crear Bin</button><button class="btn btn2" onclick="syncFromCloud()" style="margin-left:8px">Descargar de Nube</button><button class="btn btn2" onclick="syncToCloud()" style="margin-left:8px">Subir a Nube</button><button class="btn btn2" onclick="disconnectCloud()" style="margin-left:8px">Desconectar</button>
     <div id="cfgStatus" style="margin-top:12px;font-size:.85rem"></div>
-    <div class="note" style="margin-top:16px">
-      <strong>Pasos:</strong><br>
-      1. Ve a <a href="https://jsonbin.io" target="_blank">jsonbin.io</a> y crea cuenta gratis<br>
-      2. En tu dashboard, copia el "X-Master-Key" (API Key)<br>
-      3. Pegalo arriba y dale "Conectar" - se crea un bin automaticamente<br>
-      4. Los datos se sincronizan cada vez que guardas
-    </div>
   </div></div>
-
   <div class="footer">Control Fiscal 2026 - <span id="footerSync">Datos locales</span></div>
 </div>
 <div class="si" id="saveInd">Guardado</div>
@@ -239,144 +157,181 @@ const LIM=3500000,IVA_T=0.16,RI=0.0125,RV=0.106667;
 const TR=[{mn:0,mx:25000,t:.01},{mn:25000.01,mx:50000,t:.011},{mn:50000.01,mx:83333.33,t:.015},{mn:83333.34,mx:208333.33,t:.02},{mn:208333.34,mx:3500000,t:.025}];
 const FL=['17/Mar/2026','17/Abr/2026','17/May/2026','17/Jun/2026','17/Jul/2026','17/Ago/2026','17/Sep/2026','17/Oct/2026','17/Nov/2026','17/Dic/2026','17/Ene/2027'];
 const FLD=[new Date(2026,2,17),new Date(2026,3,17),new Date(2026,4,17),new Date(2026,5,17),new Date(2026,6,17),new Date(2026,7,17),new Date(2026,8,17),new Date(2026,9,17),new Date(2026,10,17),new Date(2026,11,17),new Date(2027,0,17)];
-const SK='edna_fiscal_v6',CK='edna_jsonbin_cfg';
+const SK='edna_fiscal_v7',CK='edna_jsonbin_cfg';
 function $(s){return document.getElementById(s)}
 function fm(n){return '$'+n.toLocaleString('es-MX',{minimumFractionDigits:2,maximumFractionDigits:2})}
 function gt(i){for(const r of TR){if(i>=r.mn&&i<=r.mx)return r.t}return .025}
 
+// Datos de compras por mes (de los XMLs analizados)
+const COMPRAS={
+  1:[ // Febrero
+    {emisor:'LUCIO ROMAN REYES',desc:'Consumo restaurante',sub:831.90,iva:133.10,tot:965,fecha:'2026-02-03'},
+    {emisor:'MANUEL FIGUEROA',desc:'Croquetas perro Ganador 23kg',sub:879.31,iva:140.69,tot:1020,fecha:'2026-02-03'},
+    {emisor:'MANUEL FIGUEROA',desc:'Alimento gato Diamond 18kg',sub:896.55,iva:143.45,tot:1040,fecha:'2026-02-03'},
+    {emisor:'MANUEL FIGUEROA',desc:'Alimento mascotas varios',sub:1857.76,iva:297.24,tot:2155,fecha:'2026-02-03'},
+    {emisor:'GRUPO URUGUAYO MINAS',desc:'Consumo restaurante',sub:974.14,iva:155.86,tot:1130,fecha:'2026-02-05'},
+    {emisor:'NESTOR GRANADOS',desc:'Servicio veterinario',sub:372,iva:0,tot:372,fecha:'2026-02-06',exento:true},
+    {emisor:'GRUPO URUGUAYO MINAS',desc:'Consumo restaurante',sub:974.14,iva:155.86,tot:1130,fecha:'2026-02-06'},
+    {emisor:'ALIS ABASTECEDORA',desc:'Cerraduras Roseta+Dexter',sub:1230.64,iva:143.55,tot:1040.73,fecha:'2026-02-11'},
+    {emisor:'ALIS ABASTECEDORA',desc:'Cerraduras Olan+Tover',sub:2180.87,iva:348.94,tot:2529.81,fecha:'2026-02-11'},
+    {emisor:'MERAKI BARRAGAN',desc:'Material plomeria (cobre, codos, etc)',sub:2277.44,iva:364.39,tot:2641.83,fecha:'2026-02-12'},
+    {emisor:'PHARMA PLUS',desc:'Farmacia (glucosamina, etc)',sub:1445.25,iva:66.75,tot:1512,fecha:'2026-02-21'},
+    {emisor:'DIANA GONZALEZ',desc:'Lote aluminio (construccion)',sub:8836.21,iva:1413.79,tot:10250,fecha:'2026-02-24'},
+    {emisor:'JOSE M. GUZMAN',desc:'Servicio veterinario',sub:2014,iva:0,tot:2014,fecha:'2026-02-28',exento:true},
+  ],
+  2:[ // Marzo
+    {emisor:'MANUEL FIGUEROA',desc:'Alimento mascotas (arena, croquetas, etc)',sub:2681.03,iva:428.97,tot:3110,fecha:'2026-03-16'},
+    {emisor:'BENJAMIN MUNOZ',desc:'Material construccion (block, varilla, cemento)',sub:6833.79,iva:1093.41,tot:7927.20,fecha:'2026-03-24'},
+    {emisor:'BENJAMIN MUNOZ',desc:'Material construccion (alambre, varilla, cemento)',sub:2212.93,iva:354.07,tot:2567,fecha:'2026-03-24'},
+  ]
+};
+
+// JSONBin
 function getCfg(){const s=localStorage.getItem(CK);return s?JSON.parse(s):null}
 function saveCfg(c){localStorage.setItem(CK,JSON.stringify(c))}
-async function setupJSONBin(){
-  const key=$('apiKeyInput').value.trim();
-  if(!key){$('cfgStatus').innerHTML='<span style="color:var(--accent)">Ingresa tu API Key</span>';return}
-  $('cfgStatus').innerHTML='Conectando...';
-  try{const data=ld();
-    const res=await fetch('https://api.jsonbin.io/v3/b',{method:'POST',headers:{'Content-Type':'application/json','X-Master-Key':key,'X-Bin-Name':'edna-fiscal-2026','X-Bin-Private':'false'},body:JSON.stringify(data)});
-    const j=await res.json();
-    if(j.metadata){const cfg={key,binId:j.metadata.id};saveCfg(cfg);$('binIdInput').value=cfg.binId;
-      $('cfgStatus').innerHTML='<span style="color:var(--ok)">Conectado. Bin ID: '+cfg.binId+'</span>';updateSyncUI();
-    }else{$('cfgStatus').innerHTML='<span style="color:var(--accent)">Error: '+JSON.stringify(j)+'</span>'}
-  }catch(e){$('cfgStatus').innerHTML='<span style="color:var(--accent)">Error: '+e.message+'</span>'}
-}
-async function syncToCloud(){
-  const cfg=getCfg();if(!cfg){$('cfgStatus').innerHTML='Configura primero';return}
-  try{const data=ld();await fetch('https://api.jsonbin.io/v3/b/'+cfg.binId,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':cfg.key},body:JSON.stringify(data)});
-    $('cfgStatus').innerHTML='<span style="color:var(--ok)">Datos subidos</span>';showSave('Sincronizado');
-  }catch(e){$('cfgStatus').innerHTML='Error: '+e.message}
-}
-async function syncFromCloud(){
-  const cfg=getCfg();if(!cfg){$('cfgStatus').innerHTML='Configura primero';return}
-  try{const res=await fetch('https://api.jsonbin.io/v3/b/'+cfg.binId+'/latest',{headers:{'X-Master-Key':cfg.key}});
-    const j=await res.json();if(j.record){localStorage.setItem(SK,JSON.stringify(j.record));renderAll();calcularMes();
-      $('cfgStatus').innerHTML='<span style="color:var(--ok)">Datos descargados</span>';showSave('Descargado');}
-  }catch(e){$('cfgStatus').innerHTML='Error: '+e.message}
-}
-function disconnectCloud(){localStorage.removeItem(CK);$('binIdInput').value='';$('apiKeyInput').value='';updateSyncUI();$('cfgStatus').innerHTML='Desconectado'}
-function updateSyncUI(){
-  const cfg=getCfg();
-  if(cfg){$('syncDot').className='sync-icon sync-on';$('syncTxt').textContent='Nube conectada';$('footerSync').textContent='Sincronizado con JSONBin';$('binIdInput').value=cfg.binId;$('apiKeyInput').value=cfg.key}
-  else{$('syncDot').className='sync-icon sync-off';$('syncTxt').textContent='Solo local';$('footerSync').textContent='Datos locales'}
-}
+async function setupJSONBin(){const key=$('apiKeyInput').value.trim();if(!key){$('cfgStatus').innerHTML='<span style="color:var(--accent)">Ingresa tu API Key</span>';return}$('cfgStatus').innerHTML='Conectando...';try{const data=ld();const res=await fetch('https://api.jsonbin.io/v3/b',{method:'POST',headers:{'Content-Type':'application/json','X-Master-Key':key,'X-Bin-Name':'edna-fiscal-2026','X-Bin-Private':'false'},body:JSON.stringify(data)});const j=await res.json();if(j.metadata){const cfg={key,binId:j.metadata.id};saveCfg(cfg);$('binIdInput').value=cfg.binId;$('cfgStatus').innerHTML='<span style="color:var(--ok)">Conectado. Bin ID: '+cfg.binId+'</span>';updateSyncUI();}else{$('cfgStatus').innerHTML='Error: '+JSON.stringify(j)}}catch(e){$('cfgStatus').innerHTML='Error: '+e.message}}
+async function syncToCloud(){const cfg=getCfg();if(!cfg)return;try{await fetch('https://api.jsonbin.io/v3/b/'+cfg.binId,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':cfg.key},body:JSON.stringify(ld())});$('cfgStatus').innerHTML='<span style="color:var(--ok)">Subido</span>';showSave('Sincronizado')}catch(e){$('cfgStatus').innerHTML='Error: '+e.message}}
+async function syncFromCloud(){const cfg=getCfg();if(!cfg)return;try{const res=await fetch('https://api.jsonbin.io/v3/b/'+cfg.binId+'/latest',{headers:{'X-Master-Key':cfg.key}});const j=await res.json();if(j.record){localStorage.setItem(SK,JSON.stringify(j.record));renderAll();calcularMes();showSave('Descargado')}}catch(e){$('cfgStatus').innerHTML='Error: '+e.message}}
+function disconnectCloud(){localStorage.removeItem(CK);$('binIdInput').value='';$('apiKeyInput').value='';updateSyncUI()}
+function updateSyncUI(){const cfg=getCfg();if(cfg){$('syncDot').className='sync-icon sync-on';$('syncTxt').textContent='Nube conectada';$('footerSync').textContent='Sincronizado con JSONBin';$('binIdInput').value=cfg.binId;$('apiKeyInput').value=cfg.key}else{$('syncDot').className='sync-icon sync-off';$('syncTxt').textContent='Solo local';$('footerSync').textContent='Datos locales'}}
 async function syncSilent(cfg,data){try{await fetch('https://api.jsonbin.io/v3/b/'+cfg.binId,{method:'PUT',headers:{'Content-Type':'application/json','X-Master-Key':cfg.key},body:JSON.stringify(data)})}catch(e){}}
 
 function defData(){
   const m=Array.from({length:12},()=>({ingreso:0,esPM:true,ivaAcreditable:0}));
-  // Feb: Factura 2C2524B1, Subtotal $33,434.75, Total $34,800
-  m[1]={ingreso:34800,esPM:true,ivaAcreditable:3363.62,uuid:'2C2524B1-DE44-4505-AC5B-184087CCAD00',fecha:'2026-02'};
-  // Mar: Factura 5DB24E26, Subtotal $33,434.75, Total $34,800, Fecha 2026-03-13
-  m[2]={ingreso:34800,esPM:true,ivaAcreditable:1876.45,uuid:'5DB24E26-7817-49FA-B191-B142B6F39155',fecha:'2026-03-13'};
-  // Abr: Factura 7E5FECAD, Subtotal $33,434.75, Total $34,800, Fecha 2026-04-18
-  m[3]={ingreso:34800,esPM:true,ivaAcreditable:0,uuid:'7E5FECAD-FD4A-4260-B999-5C15058C0F63',fecha:'2026-04-18'};
+  m[1]={ingreso:34800,esPM:true,ivaAcreditable:3363.62,uuid:'2C2524B1',fecha:'2026-02'};
+  m[2]={ingreso:34800,esPM:true,ivaAcreditable:1876.45,uuid:'5DB24E26',fecha:'2026-03-13'};
+  m[3]={ingreso:34800,esPM:true,ivaAcreditable:0,uuid:'7E5FECAD',fecha:'2026-04-18'};
   const dc=Array.from({length:12},()=>({isrE:'pendiente',ivaE:'pendiente',fp:'',notas:''}));
-  // Feb presentada: ISR saldo favor $50, IVA saldo favor $1,580.44
-  dc[1]={isrE:'presentada',ivaE:'presentada',fp:'2026-03-17',notas:'ISR favor $50. IVA favor $1,580.44. IVA acred $3,363.62 (13 facturas compras)'};
-  // Mar pendiente: ISR saldo favor $50, IVA saldo favor $93.27
-  dc[2]={isrE:'pendiente',ivaE:'pendiente',fp:'',notas:'ISR favor $50. IVA favor $93.27. IVA acred $1,876.45 (3 facturas compras)'};
+  dc[1]={isrE:'presentada',ivaE:'presentada',fp:'2026-03-17',notas:'Acuse: ENE-Acuse.GAGE620314UU5.38.2026'};
+  dc[2]={isrE:'presentada',ivaE:'presentada',fp:'2026-04-17',notas:'Acuse: FEB-Acuse.GAGE620314UU5.38.2026'};
   return{meses:m,decl:dc};
 }
 function ld(){const s=localStorage.getItem(SK);if(s){const d=JSON.parse(s);if(!d.decl)d.decl=Array.from({length:12},()=>({isrE:'pendiente',ivaE:'pendiente',fp:'',notas:''}));return d}return defData()}
 function sv(d){localStorage.setItem(SK,JSON.stringify(d));showSave('Guardado');const cfg=getCfg();if(cfg)syncSilent(cfg,d)}
 function showSave(msg){const e=$('saveInd');e.textContent=msg;e.classList.add('show');setTimeout(()=>e.classList.remove('show'),2000)}
 
-function calc(tot,pm){
+function calc(tot,pm,ivaAcred){
+  ivaAcred=ivaAcred||0;
   const sub=tot/(1+IVA_T),ivt=sub*IVA_T,t=gt(sub),isr=sub*t;
   const ri=pm?sub*RI:0,rv=pm?sub*RV:0;
-  const isrP=Math.max(0,isr-ri),sf=Math.max(0,ri-isr);
-  return{tot,sub,ivt,t,isr,ri,rv,isrP,sf,ivaP:Math.max(0,ivt-rv),cobr:tot-ri-rv};
+  const sf=Math.max(0,ri-isr),ivaNet=ivt-rv-ivaAcred,ivaPagar=Math.max(0,ivaNet),sfIva=Math.max(0,-ivaNet);
+  return{tot,sub,ivt,t,isr,ri,rv,isrP:Math.max(0,isr-ri),sf,ivaAcred,ivaPagar,sfIva,cobr:tot-ri-rv};
 }
 
 function calcularMes(){
-  const ing=parseFloat($('ingresoMes').value)||0,pm=$('esPM').value==='1',d=calc(ing,pm);
+  const ing=parseFloat($('ingresoMes').value)||0,pm=$('esPM').value==='1';
+  const mesIdx=parseInt($('mesSel').value);
+  const data=ld();const ia=data.meses[mesIdx]?data.meses[mesIdx].ivaAcreditable||0:0;
+  const d=calc(ing,pm,ia);
   const rows=[
     ['Ingreso Total (con IVA)',fm(d.tot),'Monto facturado'],['Subtotal (Base)',fm(d.sub),'Ingreso / 1.16'],['','',''],
     ['<strong>-- ISR RESICO --</strong>','',''],['Tasa RESICO',(d.t*100).toFixed(2)+'%','Sobre ingreso bruto'],
     ['ISR causado',fm(d.isr),fm(d.sub)+' x '+(d.t*100).toFixed(2)+'%'],
     ['(-) Ret. ISR P.Moral',pm?'-'+fm(d.ri):'$0.00',pm?'1.25%':'N/A'],
-    d.isrP>0?['<strong class="hl">ISR a Pagar</strong>','<strong class="hl">'+fm(d.isrP)+'</strong>','ISR - retencion']:
-    ['<strong class="pos">Saldo a Favor ISR</strong>','<strong class="pos">'+fm(d.sf)+'</strong>','Retencion excede ISR causado'],
+    ['<strong class="pos">Saldo a Favor ISR</strong>','<strong class="pos">'+fm(d.sf)+'</strong>','Retencion excede ISR'],
     ['','',''],['<strong>-- IVA --</strong>','',''],['IVA Trasladado 16%',fm(d.ivt),'Cobrado al inquilino'],
-    ['(-) IVA Retenido',pm?'-'+fm(d.rv):'$0.00',pm?'10.67% (2/3 IVA)':'N/A'],
-    ['<strong>IVA a Pagar</strong>','<strong>'+fm(d.ivaP)+'</strong>','Trasladado - Retenido'],['','',''],
-    ['<strong>-- RESUMEN --</strong>','',''],['Cobrado efectivamente',fm(d.cobr),'Ingreso - retenciones'],
-    ['Total impuestos propios','<strong class="hl">'+fm(d.isrP+d.ivaP)+'</strong>','ISR + IVA neto'],
+    ['(-) IVA Retenido',pm?'-'+fm(d.rv):'$0.00',pm?'10.67%':'N/A'],
+    ['(-) IVA Acreditable','-'+fm(d.ivaAcred),'De facturas de compras'],
+    d.ivaPagar>0?['<strong class="hl">IVA a Pagar</strong>','<strong class="hl">'+fm(d.ivaPagar)+'</strong>','']:
+    ['<strong class="pos">Saldo Favor IVA</strong>','<strong class="pos">'+fm(d.sfIva)+'</strong>',''],
+    ['','',''],['<strong>-- RESUMEN --</strong>','',''],['Cobrado efectivamente',fm(d.cobr),'Ingreso - retenciones'],
   ];
   $('desgloseBody').innerHTML=rows.map(r=>r[0]===''?'<tr><td colspan="3" style="border:none;height:8px"></td></tr>':`<tr><td>${r[0]}</td><td class="n">${r[1]}</td><td>${r[2]}</td></tr>`).join('');
-  $('dR').textContent=fm(d.tot);$('dI').textContent=fm(d.isr);$('dRt').textContent=fm(d.ri);
-  $('dP').textContent=fm(d.isrP);$('dSF').textContent=fm(d.sf);$('dV').textContent=fm(d.ivaP);
+  $('dR').textContent=fm(d.tot);$('dI').textContent=fm(d.isr);$('dRt').textContent=fm(d.ri);$('dSF').textContent=fm(d.sf);$('dV').textContent=d.ivaPagar>0?fm(d.ivaPagar):'-'+fm(d.sfIva);$('dA').textContent=fm(d.sub);
 }
 
-function guardarMes(){
-  const mes=parseInt($('mesSel').value),ing=parseFloat($('ingresoMes').value)||0,pm=$('esPM').value==='1';
-  const data=ld();data.meses[mes]={...data.meses[mes],ingreso:ing,esPM:pm,ivaAcreditable:0};sv(data);renderAll();
-}
+function guardarMes(){const mes=parseInt($('mesSel').value),ing=parseFloat($('ingresoMes').value)||0,pm=$('esPM').value==='1';const data=ld();data.meses[mes]={...data.meses[mes],ingreso:ing,esPM:pm};sv(data);renderAll()}
 
 function renderAnual(){
-  const data=ld();let ac=0,T={i:0,s:0,isr:0,ri:0,ip:0,sf:0,ivt:0,rv:0,ivp:0},rows='';
+  const data=ld();let ac=0,T={i:0,s:0,isr:0,ri:0,sf:0,ivt:0,rv:0,ia:0,ivp:0,sfv:0},rows='';
   MI.forEach((idx,pos)=>{const m=data.meses[idx];
     if(!m.ingreso){rows+=`<tr style="color:#a0aec0"><td>${MS[pos]}</td>${'<td class="n">-</td>'.repeat(9)}<td class="n">${fm(ac)}</td></tr>`;return}
-    const d=calc(m.ingreso,m.esPM);ac+=d.sub;T.i+=d.tot;T.s+=d.sub;T.isr+=d.isr;T.ri+=d.ri;T.ip+=d.isrP;T.sf+=d.sf;T.ivt+=d.ivt;T.rv+=d.rv;T.ivp+=d.ivaP;
-    rows+=`<tr><td>${MS[pos]}</td><td class="n">${fm(d.tot)}</td><td class="n">${fm(d.sub)}</td><td class="n">${fm(d.isr)}</td><td class="n">${fm(d.ri)}</td><td class="n ${d.isrP>0?'hl':''}">${fm(d.isrP)}</td><td class="n pos">${fm(d.sf)}</td><td class="n">${fm(d.ivt)}</td><td class="n">${fm(d.rv)}</td><td class="n">${fm(d.ivaP)}</td><td class="n" style="font-weight:700">${fm(ac)}</td></tr>`;
+    const d=calc(m.ingreso,m.esPM,m.ivaAcreditable||0);ac+=d.sub;
+    T.i+=d.tot;T.s+=d.sub;T.isr+=d.isr;T.ri+=d.ri;T.sf+=d.sf;T.ivt+=d.ivt;T.rv+=d.rv;T.ia+=d.ivaAcred;T.ivp+=d.ivaPagar;T.sfv+=d.sfIva;
+    const ivaCell=d.ivaPagar>0?`<td class="n hl">${fm(d.ivaPagar)}</td>`:`<td class="n pos">-${fm(d.sfIva)} favor</td>`;
+    rows+=`<tr><td>${MS[pos]}</td><td class="n">${fm(d.tot)}</td><td class="n">${fm(d.sub)}</td><td class="n">${fm(d.isr)}</td><td class="n">${fm(d.ri)}</td><td class="n pos">${fm(d.sf)}</td><td class="n">${fm(d.ivt)}</td><td class="n">${fm(d.rv)}</td><td class="n">${fm(d.ivaAcred)}</td>${ivaCell}<td class="n" style="font-weight:700">${fm(ac)}</td></tr>`;
   });
   $('anualBody').innerHTML=rows;
-  $('anualFoot').innerHTML=`<tr class="tr"><td>TOTALES</td><td class="n">${fm(T.i)}</td><td class="n">${fm(T.s)}</td><td class="n">${fm(T.isr)}</td><td class="n">${fm(T.ri)}</td><td class="n hl">${fm(T.ip)}</td><td class="n pos">${fm(T.sf)}</td><td class="n">${fm(T.ivt)}</td><td class="n">${fm(T.rv)}</td><td class="n">${fm(T.ivp)}</td><td class="n" style="color:${ac>LIM?'var(--accent)':'var(--primary)'}">${fm(ac)}</td></tr>`;
+  $('anualFoot').innerHTML=`<tr class="tr"><td>TOTALES</td><td class="n">${fm(T.i)}</td><td class="n">${fm(T.s)}</td><td class="n">${fm(T.isr)}</td><td class="n">${fm(T.ri)}</td><td class="n pos">${fm(T.sf)}</td><td class="n">${fm(T.ivt)}</td><td class="n">${fm(T.rv)}</td><td class="n">${fm(T.ia)}</td><td class="n">${T.ivp>0?'<span class="hl">'+fm(T.ivp)+'</span>':'<span class="pos">-'+fm(T.sfv)+' favor</span>'}</td><td class="n">${fm(ac)}</td></tr>`;
   $('alertAmount').textContent=fm(ac);$('dA').textContent=fm(ac);
-  const al=$('alertLimit');
-  if(ac>LIM){al.classList.remove('ok');$('alertIcon').textContent='ALERTA';$('notaLimite').style.display='block'}
-  else if(ac>LIM*.8){al.classList.remove('ok');$('alertIcon').textContent='AVISO';$('notaLimite').style.display='block'}
-  else{al.classList.add('ok');$('alertIcon').textContent='OK';$('notaLimite').style.display='none'}
+  const al=$('alertLimit');if(ac>LIM){al.classList.remove('ok');$('alertIcon').textContent='ALERTA'}else{al.classList.add('ok');$('alertIcon').textContent='OK'}
 }
 
 function renderIVA(){
-  const data=ld();let ac=0,T={b:0,t:0,r:0,a:0,p:0},rows='';
+  const data=ld();let ac=0,T={b:0,t:0,r:0,a:0,p:0,sf:0},rows='';
   MI.forEach((idx,pos)=>{const m=data.meses[idx];
-    if(!m.ingreso){rows+=`<tr style="color:#a0aec0"><td>${MS[pos]}</td>${'<td class="n">-</td>'.repeat(5)}<td class="n">${fm(ac)}</td></tr>`;return}
-    const d=calc(m.ingreso,m.esPM),ia=m.ivaAcreditable||0,ip=Math.max(0,d.ivt-d.rv-ia);ac+=ip;
-    T.b+=d.sub;T.t+=d.ivt;T.r+=d.rv;T.a+=ia;T.p+=ip;
-    rows+=`<tr><td>${MS[pos]}</td><td class="n">${fm(d.sub)}</td><td class="n">${fm(d.ivt)}</td><td class="n">${fm(d.rv)}</td><td class="n">${fm(ia)}</td><td class="n ${ip>0?'hl':'pos'}">${fm(ip)}</td><td class="n">${fm(ac)}</td></tr>`;
+    if(!m.ingreso){rows+=`<tr style="color:#a0aec0"><td>${MS[pos]}</td>${'<td class="n">-</td>'.repeat(6)}<td class="n">${fm(ac)}</td></tr>`;return}
+    const d=calc(m.ingreso,m.esPM,m.ivaAcreditable||0);ac+=d.ivaPagar>0?d.ivaPagar:0;
+    T.b+=d.sub;T.t+=d.ivt;T.r+=d.rv;T.a+=d.ivaAcred;T.p+=d.ivaPagar;T.sf+=d.sfIva;
+    rows+=`<tr><td>${MS[pos]}</td><td class="n">${fm(d.sub)}</td><td class="n">${fm(d.ivt)}</td><td class="n">${fm(d.rv)}</td><td class="n">${fm(d.ivaAcred)}</td><td class="n ${d.ivaPagar>0?'hl':'pos'}">${d.ivaPagar>0?fm(d.ivaPagar):fm(0)}</td><td class="n pos">${fm(d.sfIva)}</td><td class="n">${fm(ac)}</td></tr>`;
   });
   $('ivaBody').innerHTML=rows;
-  $('ivaFoot').innerHTML=`<tr class="tr"><td>TOTALES</td><td class="n">${fm(T.b)}</td><td class="n">${fm(T.t)}</td><td class="n">${fm(T.r)}</td><td class="n">${fm(T.a)}</td><td class="n hl">${fm(T.p)}</td><td class="n">${fm(ac)}</td></tr>`;
+  $('ivaFoot').innerHTML=`<tr class="tr"><td>TOTALES</td><td class="n">${fm(T.b)}</td><td class="n">${fm(T.t)}</td><td class="n">${fm(T.r)}</td><td class="n">${fm(T.a)}</td><td class="n hl">${fm(T.p)}</td><td class="n pos">${fm(T.sf)}</td><td class="n">${fm(ac)}</td></tr>`;
 }
 
 function renderDecl(){
-  const data=ld(),hoy=new Date();let ok=0,pe=0,sfAcum=0,ivaP=0,rows='';
+  const data=ld(),hoy=new Date();let okC=0,peC=0,sfISR=0,sfIVA=0,totCompras=0,totIvaAcred=0;
+  let html='';
   MI.forEach((idx,pos)=>{const m=data.meses[idx],dc=data.decl[idx],ti=m.ingreso>0;
-    if(!ti){rows+=`<tr style="color:#a0aec0"><td>${MS[pos]}</td><td>${FL[pos]}</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td class="n">-</td><td><span class="st-na">Sin ingreso</span></td><td><span class="st-na">Sin ingreso</span></td><td>-</td><td>-</td><td>-</td></tr>`;return}
-    const d=calc(m.ingreso,m.esPM),ia=m.ivaAcreditable||0,ivPm=Math.max(0,d.ivt-d.rv-ia),tp=d.isrP+ivPm,vc=hoy>FLD[pos];
-    function st(e){return e==='presentada'?'<span class="st-ok">Presentada</span>':vc?'<span class="st-ve">Vencida</span>':'<span class="st-pe">Pendiente</span>'}
-    if(dc.isrE==='presentada'){ok++;sfAcum+=d.sf}else if(ti)pe++;
-    if(dc.ivaE==='presentada'){ok++;ivaP+=ivPm}else if(ti)pe++;
+    if(!ti)return;
+    const d=calc(m.ingreso,m.esPM,m.ivaAcreditable||0);
+    const vc=hoy>FLD[pos];
     const ambas=dc.isrE==='presentada'&&dc.ivaE==='presentada';
-    rows+=`<tr><td><strong>${MS[pos]}</strong></td><td>${FL[pos]}</td><td class="n">${fm(d.isrP)}</td><td class="n pos">${fm(d.sf)}</td><td class="n">${fm(ivPm)}</td><td class="n" style="font-weight:700">${fm(tp)}</td><td>${st(dc.isrE)}</td><td>${st(dc.ivaE)}</td><td><input type="date" value="${dc.fp}" onchange="uDecl(${idx},'fp',this.value)" style="font-size:.8rem;padding:4px;border:1px solid var(--bdr);border-radius:6px"></td><td><input type="text" value="${dc.notas||''}" placeholder="Linea captura..." onchange="uDecl(${idx},'notas',this.value)" style="font-size:.8rem;padding:4px;border:1px solid var(--bdr);border-radius:6px;width:100%"></td><td><button class="btn btns ${ambas?'btn2':''}" onclick="mDecl(${idx})">${ambas?'Revertir':'Presentada'}</button></td></tr>`;
+    if(dc.isrE==='presentada')okC++;else peC++;
+    if(dc.ivaE==='presentada')okC++;else peC++;
+    sfISR+=d.sf;sfIVA+=d.sfIva;totIvaAcred+=d.ivaAcred;
+    // Compras del mes
+    const compras=COMPRAS[idx]||[];
+    const totalComprasMes=compras.reduce((a,c)=>a+c.tot,0);
+    const ivaAcredCompras=compras.reduce((a,c)=>a+c.iva,0);
+    totCompras+=totalComprasMes;
+    function stHTML(e){return e==='presentada'?'<span class="st-ok">Presentada</span>':vc?'<span class="st-ve">Vencida</span>':'<span class="st-pe">Pendiente</span>'}
+
+    html+=`<div class="decl-detail" style="margin-bottom:16px">
+      <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+        <h4>${MS[pos]} 2026</h4>
+        <div>ISR: ${stHTML(dc.isrE)} | IVA: ${stHTML(dc.ivaE)}
+        <button class="btn btns ${ambas?'btn2':''}" onclick="mDecl(${idx})" style="margin-left:8px">${ambas?'Revertir':'Marcar Presentada'}</button></div>
+      </div>
+      <div style="margin-top:4px;font-size:.8rem;color:var(--txtL)">Limite: ${FL[pos]} | ${dc.fp?'Presentada: '+dc.fp:'Sin fecha'} | ${dc.notas||''}</div>
+      <div class="decl-grid" style="margin-top:12px">
+        <div>
+          <table><thead><tr><th colspan="2">ISR RESICO</th></tr></thead><tbody>
+            <tr><td>Ingresos percibidos</td><td class="n">${fm(d.sub)}</td></tr>
+            <tr><td>Tasa aplicable</td><td class="n">${(d.t*100).toFixed(2)}%</td></tr>
+            <tr><td>ISR causado</td><td class="n">${fm(d.isr)}</td></tr>
+            <tr><td>(-) ISR retenido PM</td><td class="n">${fm(d.ri)}</td></tr>
+            <tr style="font-weight:700"><td>Saldo a Favor ISR</td><td class="n pos">${fm(d.sf)}</td></tr>
+          </tbody></table>
+        </div>
+        <div>
+          <table><thead><tr><th colspan="2">IVA</th></tr></thead><tbody>
+            <tr><td>IVA trasladado cobrado</td><td class="n">${fm(d.ivt)}</td></tr>
+            <tr><td>(-) IVA retenido</td><td class="n">${fm(d.rv)}</td></tr>
+            <tr><td>(-) IVA acreditable</td><td class="n">${fm(d.ivaAcred)}</td></tr>
+            ${d.ivaPagar>0?`<tr style="font-weight:700"><td>IVA a Pagar</td><td class="n hl">${fm(d.ivaPagar)}</td></tr>`
+            :`<tr style="font-weight:700"><td>Saldo a Favor IVA</td><td class="n pos">${fm(d.sfIva)}</td></tr>`}
+          </tbody></table>
+        </div>
+      </div>`;
+    // Compras
+    if(compras.length>0){
+      html+=`<div style="margin-top:12px"><table><thead><tr><th>Fecha</th><th>Emisor</th><th>Descripcion</th><th class="n">Subtotal</th><th class="n">IVA</th><th class="n">Total</th></tr></thead><tbody>`;
+      compras.forEach(c=>{
+        html+=`<tr><td>${c.fecha}</td><td>${c.emisor}</td><td>${c.desc}</td><td class="n">${fm(c.sub)}</td><td class="n">${c.exento?'Exento':fm(c.iva)}</td><td class="n">${fm(c.tot)}</td></tr>`;
+      });
+      html+=`<tr class="tr"><td colspan="3">Total compras del mes</td><td class="n">${fm(compras.reduce((a,c)=>a+c.sub,0))}</td><td class="n">${fm(ivaAcredCompras)}</td><td class="n">${fm(totalComprasMes)}</td></tr></tbody></table></div>`;
+    }else{html+=`<div style="margin-top:8px;font-size:.82rem;color:var(--txtL)">Sin facturas de compras registradas este mes</div>`}
+    html+=`<div style="margin-top:8px;font-size:.8rem"><input type="text" value="${dc.notas||''}" placeholder="Notas / linea de captura..." onchange="uDecl(${idx},'notas',this.value)" style="width:100%;padding:6px 10px;border:1px solid var(--bdr);border-radius:6px;font-size:.8rem"> <input type="date" value="${dc.fp}" onchange="uDecl(${idx},'fp',this.value)" style="padding:6px;border:1px solid var(--bdr);border-radius:6px;font-size:.8rem;margin-top:4px"></div></div>`;
   });
-  $('declBody').innerHTML=rows;$('dclOk').textContent=ok;$('dclPe').textContent=pe;$('dclSF').textContent=fm(sfAcum);$('dclIva').textContent=fm(ivaP);
+  $('declDetail').innerHTML=html||'<p style="color:var(--txtL)">No hay meses con ingresos registrados.</p>';
+  $('dclOk').textContent=okC;$('dclPe').textContent=peC;$('dclSF').textContent=fm(sfISR);$('dclSFIVA').textContent=fm(sfIVA);$('dclCompras').textContent=fm(totCompras);$('dclIvaAcred').textContent=fm(totIvaAcred);
 }
 
 function mDecl(i){const d=ld(),a=d.decl[i].isrE==='presentada'&&d.decl[i].ivaE==='presentada';
   if(a){d.decl[i].isrE='pendiente';d.decl[i].ivaE='pendiente';d.decl[i].fp=''}
   else{d.decl[i].isrE='presentada';d.decl[i].ivaE='presentada';if(!d.decl[i].fp)d.decl[i].fp=new Date().toISOString().split('T')[0]}
-  sv(d);renderDecl();
-}
+  sv(d);renderDecl()}
 function uDecl(i,k,v){const d=ld();d.decl[i][k]=v;sv(d)}
 function renderAll(){renderAnual();renderIVA();renderDecl()}
 
@@ -385,7 +340,6 @@ document.querySelectorAll('.tab').forEach(t=>t.addEventListener('click',()=>{
   document.querySelectorAll('.tc').forEach(x=>x.classList.remove('active'));
   t.classList.add('active');$('tab-'+t.dataset.tab).classList.add('active');
 }));
-
 (function(){if(!localStorage.getItem(SK))localStorage.setItem(SK,JSON.stringify(defData()));updateSyncUI();calcularMes();renderAll()})();
 </script>
 </body>
