@@ -239,7 +239,7 @@ const LIM=3500000,IVA_T=0.16,RI=0.0125,RV=0.106667;
 const TR=[{mn:0,mx:25000,t:.01},{mn:25000.01,mx:50000,t:.011},{mn:50000.01,mx:83333.33,t:.015},{mn:83333.34,mx:208333.33,t:.02},{mn:208333.34,mx:3500000,t:.025}];
 const FL=['17/Mar/2026','17/Abr/2026','17/May/2026','17/Jun/2026','17/Jul/2026','17/Ago/2026','17/Sep/2026','17/Oct/2026','17/Nov/2026','17/Dic/2026','17/Ene/2027'];
 const FLD=[new Date(2026,2,17),new Date(2026,3,17),new Date(2026,4,17),new Date(2026,5,17),new Date(2026,6,17),new Date(2026,7,17),new Date(2026,8,17),new Date(2026,9,17),new Date(2026,10,17),new Date(2026,11,17),new Date(2027,0,17)];
-const SK='edna_fiscal_v4',CK='edna_jsonbin_cfg';
+const SK='edna_fiscal_v5',CK='edna_jsonbin_cfg';
 function $(s){return document.getElementById(s)}
 function fm(n){return '$'+n.toLocaleString('es-MX',{minimumFractionDigits:2,maximumFractionDigits:2})}
 function gt(i){for(const r of TR){if(i>=r.mn&&i<=r.mx)return r.t}return .025}
@@ -287,7 +287,12 @@ function defData(){
   m[2]={ingreso:34800,esPM:true,ivaAcreditable:0,uuid:'5DB24E26-7817-49FA-B191-B142B6F39155',fecha:'2026-03-13'};
   // Abr: Factura 7E5FECAD, Subtotal $33,434.75, Total $34,800, Fecha 2026-04-18
   m[3]={ingreso:34800,esPM:true,ivaAcreditable:0,uuid:'7E5FECAD-FD4A-4260-B999-5C15058C0F63',fecha:'2026-04-18'};
-  return{meses:m,decl:Array.from({length:12},()=>({isrE:'pendiente',ivaE:'pendiente',fp:'',notas:''}))};
+  const dc=Array.from({length:12},()=>({isrE:'pendiente',ivaE:'pendiente',fp:'',notas:''}));
+  // Feb presentada (ISR $0 pagar, saldo favor $50, IVA $1,783.18)
+  dc[1]={isrE:'presentada',ivaE:'presentada',fp:'2026-03-17',notas:'ISR saldo favor $50. IVA pagado $1,783.18'};
+  // Mar pendiente (en proceso)
+  dc[2]={isrE:'pendiente',ivaE:'pendiente',fp:'',notas:'ISR saldo favor $50. IVA a pagar $1,783.18'};
+  return{meses:m,decl:dc};
 }
 function ld(){const s=localStorage.getItem(SK);if(s){const d=JSON.parse(s);if(!d.decl)d.decl=Array.from({length:12},()=>({isrE:'pendiente',ivaE:'pendiente',fp:'',notas:''}));return d}return defData()}
 function sv(d){localStorage.setItem(SK,JSON.stringify(d));showSave('Guardado');const cfg=getCfg();if(cfg)syncSilent(cfg,d)}
